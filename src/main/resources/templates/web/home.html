@@ -34,68 +34,41 @@
 		*************************************-->
 	
 	<section class="home-index-slider slider-arrow slider-dots">
-		<div class="banner-part banner-1">
+		<div class="">
 			<div class="container">
 				<div class="row align-items-center">
+					<div class="col-md-12 col-lg-12">
+						<div class="banner-img">
+							<img src="images/home/index/banner-nua-dau-Large.jpg" alt="index" style="width: 1299px; height: 595px;" />
+						</div>
+					</div>
 					<div class="col-md-6 col-lg-6">
 						<div class="banner-content">
-							<h1>Giao hàng tận nhà miễn phí trong vòng 24 giờ ngay bây
-								giờ.</h1>
-							<p>Lorem ipsum dolor consectetur adipisicing elit modi
-								consequatur eaque expedita porro necessitatibus eveniet
-								voluptatum quis pariatur Laboriosam molestiae architecto
-								excepturi</p>
-							<div class="banner-btn">
-								<a class="btn btn-inline"
-									th:href="@{/products}">
-									<i class="fas fa-shopping-basket"></i>
-									<span>mua sắm ngay bây giờ</span>
-								</a>
-								<a class="btn btn-outline"
-									href="javascript:void(0);">
-									<i class="icofont-sale-discount"></i>
-									<span>nhận đề nghị</span>
-								</a>
-							</div>
+							<h1></h1>
+							<p></p>
+							
 						</div>
 					</div>
-					<div class="col-md-6 col-lg-6">
-						<div class="banner-img">
-							<img src="images/home/index/01.png" alt="index" />
-						</div>
-					</div>
+					
 				</div>
 			</div>
 		</div>
-		<div class="banner-part banner-2">
+		<div class="">
 			<div class="container">
 				<div class="row align-items-center">
-					<div class="col-md-6 col-lg-6">
+					<div class="col-md-12 col-lg-12">
 						<div class="banner-img">
-							<img src="images/home/index/02.png" alt="index" />
+							<img src="images/home/index/HRA.jpg" alt="index" style="width: 1299px; height: 595px;" />
 						</div>
 					</div>
 					<div class="col-md-6 col-lg-6">
 						<div class="banner-content">
-							<h1>Giao hàng tận nhà miễn phí trong vòng 24 giờ ngay bây
-								giờ.</h1>
-							<p>Lorem ipsum dolor consectetur adipisicing elit modi
-								consequatur eaque expedita porro necessitatibus eveniet
-								voluptatum quis pariatur Laboriosam molestiae architecto
-								excepturi</p>
-							<div class="banner-btn">
-								<a class="btn btn-inline" th:href="@{/products}">
-									<i class="fas fa-shopping-basket"></i>
-									<span>mua sắm ngay bây giờ</span>
-								</a>
-								<a class="btn btn-outline"
-									href="javascript:void(0);">
-									<i class="icofont-sale-discount"></i>
-									<span>nhận đề nghị</span>
-								</a>
-							</div>
+							<h1></h1>
+							<p></p>
+							
 						</div>
 					</div>
+					
 				</div>
 			</div>
 		</div>
@@ -105,7 +78,7 @@
 			<ul class="suggest-slider slider-arrow">
 				<li th:each="item : ${coutnProductByCategory}">
 					<a class="suggest-card" th:href="@{/productByCategory(id=${item[0]})}">
-						<img src="images/suggest/02.jpg" alt="suggest" />
+						<img src="images/suggest/IMG_5656-Copy-247x247.jpg" alt="suggest" />
 							<h5>
 								[[${item[1]}]] <span>số lượng : [[${item[2]}]] </span>
 							</h5>
@@ -141,13 +114,7 @@
 										</a>
 									<div class="product-widget">
 										 
-										<a
-											title="Video sản phẩm"
-											href="https://youtu.be/9xzcVxSBbG8"
-											class="venobox fas fa-play"
-											data-autoplay="true"
-											data-vbtype="video">
-										</a>
+	
 										<a
 											title="Chi tiết sản phẩm"
 											th:href="@{/productDetail(id=${item.productId})}"
@@ -197,7 +164,7 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="promo-img">
-						<a href="javascript:void(0);"><img src="images/promo/home/03.jpg" alt="promo" /></a>
+						<a href="javascript:void(0);"><img src="images/promo/home/LS2-TMDT-min-Large.jpg" alt="promo" style="width: 1299px; height: 405px;" /></a>
 					</div>
 				</div>
 			</div>
@@ -280,38 +247,22 @@
 			</div>
 		</div>
 	</section>
-	<section class="section countdown-part">
+	<div class="section promo-part">
 		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-lg-6 mx-auto">
-					<div class="countdown-content">
-						<h3>ƯU ĐÃI GIẢM GIÁ ĐẶC BIỆT CHO CÁC MẶT HÀNG</h3>
-						<p>Reprehenderit sed quod autem molestiae aut modi minus
-							veritatis iste dolorum suscipit quis voluptatum fugiat mollitia
-							quia minima</p>
-						<div class="countdown countdown-clock" data-countdown="2022/12/22">
-							<span class="countdown-time"><span>00</span><small>days</small></span><span
-								class="countdown-time"><span>00</span><small>hours</small></span><span
-								class="countdown-time"><span>00</span><small>minutes</small></span><span
-								class="countdown-time"><span>00</span><small>seconds</small></span>
-						</div>
-						<a th:href="@{/products}" class="btn btn-inline"><i
-							class="fas fa-shopping-basket"></i><span>Mua sắm ngay bây
-								giờ</span></a>
+			<div class="row">
+				<div class="col-sm-12 col-md-6 col-lg-6 px-xl-3">
+					<div class="promo-img">
+						<a href="javascript:void(0);"><img src="images/promo/home/hr1-banner.jpg" alt="promo" style="width: 590px; height: 300px;"/></a>
 					</div>
 				</div>
-				<div class="col-lg-1"></div>
-				<div class="col-lg-5">
-					<div class="countdown-img">
-						<img src="images/countdown.png" alt="countdown" />
-						<div class="countdown-off">
-							<span>20%</span><span>off</span>
-						</div>
+				<div class="col-sm-12 col-md-6 col-lg-6 px-xl-3">
+					<div class="promo-img">
+						<a href="javascript:void(0);"><img src="images/promo/home/IMG_0900.jpg" alt="promo" style="width: 590px; height: 300px;"/></a>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>
+	</div>
 	<section class="section newitem-part">
 		<div class="container">
 			<div class="row">
@@ -339,13 +290,7 @@
 										</a>
 									<div class="product-widget">
 										
-										<a
-											title="Product Video"
-											href="https://youtu.be/9xzcVxSBbG8"
-											class="venobox fas fa-play"
-											data-autoplay="true"
-											data-vbtype="video">
-										</a>
+									
 										<a
 											title="Chi tiết sản phẩm"
 											th:href="@{/productDetail(id=${item.productId})}"
@@ -388,22 +333,7 @@
 			</div>
 		</div>
 	</section>
-	<div class="section promo-part">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12 col-md-6 col-lg-6 px-xl-3">
-					<div class="promo-img">
-						<a href="javascript:void(0);"><img src="images/promo/home/01.jpg" alt="promo" /></a>
-					</div>
-				</div>
-				<div class="col-sm-12 col-md-6 col-lg-6 px-xl-3">
-					<div class="promo-img">
-						<a href="javascript:void(0);"><img src="images/promo/home/02.jpg" alt="promo" /></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	
 	
 	
 	<section class="section testimonial-part">
@@ -425,6 +355,7 @@
 							</p>
 							<h5>mahmud hasan</h5>
 							<ul>
+								<i class="fas fa-thin fa-poo"></i>
 								<li class="fas fa-star"></li>
 								<li class="fas fa-star"></li>
 								<li class="fas fa-star"></li>
@@ -564,7 +495,9 @@
 		<!--************************************
 				Footer End
 		*************************************-->
-		
+	<script src="icofont/icofont.min.css"></script>
+	<script src="icofont/icofont.woff"></script>
+	<script src="icofont/icofont.woff2"></script>
 	<script src="vendor/bootstrap/jquery-1.12.4.min.js"></script>
 	<script src="vendor/bootstrap/popper.min.js"></script>
 	<script src="vendor/bootstrap/bootstrap.min.js"></script>
