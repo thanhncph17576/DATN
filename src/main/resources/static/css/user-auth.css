@@ -28,7 +28,7 @@
     font-size: 28px;
     line-height: 36px;
     margin-bottom: 5px;
-    color: var(--primary)
+    color:  rgb(152, 152, 152);
 }
 
 .user-form-title p {
@@ -145,7 +145,7 @@
     text-align: center;
     text-transform: uppercase;
     color: var(--white);
-    background: var(--primary)
+    background-color: rgb(152, 152, 152);
 }
 
 .form-button p {
@@ -157,7 +157,7 @@
 .form-button p a {
     font-weight: 500;
     margin-left: 5px;
-    color: var(--primary)
+    color:  rgb(152, 152, 152);
 }
 
 .form-button p a:hover {
@@ -180,7 +180,7 @@
 .user-form-remind p a {
     font-weight: 500;
     margin-left: 5px;
-    color: var(--primary)
+    color:  rgb(152, 152, 152);
 }
 
 .user-form-remind p a:hover {
